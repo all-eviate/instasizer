@@ -1,0 +1,60 @@
+# 버전관리 불필요: 가상환경
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Python 바이트코드/캐시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 빌드/배포 산출물
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# 가상환경/툴 메타
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 테스트/커버리지
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+
+# IDE/에디터
+.vscode/
+.idea/
+*.iml
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# 로그/임시
+*.log
+*.tmp
+*.temp
+
+# 환경 변수/비밀
+*.env
+.env.*
+.secrets/
+secret*.json
+
+# Jupyter (있다면)
+.ipynb_checkpoints/
+
+# 이미지/데이터 출력물(필요 시)
+outputs/
+data/
