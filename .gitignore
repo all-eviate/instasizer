@@ -58,3 +58,6 @@ secret*.json
 # 이미지/데이터 출력물(필요 시)
 outputs/
 data/
+from/
+to/
+*.jpg
